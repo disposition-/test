@@ -6730,7 +6730,8 @@ meta.foundation-mq-topbar {
   line-height: 55px;
   font-size: 2.0625rem;
   margin: 0;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight:700;
   color: #fff;
 }
 /* line 190, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
