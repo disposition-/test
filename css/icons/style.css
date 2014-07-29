@@ -1,0 +1,64 @@
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.row:first-child i:nth-child(1) {
+  color: #eee;
+  border-left: none;
+}
+.row:first-child i:nth-child(2) {
+  color: #00a0d1;
+}
+.row:first-child i:nth-child(3) {
+  color: #db4a39;
+}
+.row:first-child i:nth-child(4) {
+  color: #c8232c;
+}
+.row:first-child i:nth-child(5) {
+  color: #ea4c89;
+  border-right: none;
+}
+
+.row:nth-child(2) {
+  background: transparent;
+}
+.row:nth-child(2) i {
+  color: #fff !important;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.row:nth-child(2) i:hover {
+  top: -2px;
+}
+.row:nth-child(2) i:nth-child(1) {
+  background: #3b5998;
+  border-left: none;
+}
+.row:nth-child(2) i:nth-child(2) {
+  background: #00a0d1;
+}
+.row:nth-child(2) i:nth-child(3) {
+  background: #db4a39;
+}
+.row:nth-child(2) i:nth-child(4) {
+  background: #c8232c;
+}
+.row:nth-child(2) i:nth-child(5) {
+  background: #ea4c89;
+  border-right: none;
+}
